@@ -4,10 +4,15 @@
 
 ---
 
+## Overview of the Agent
+GemFinder is designed to help users discover jewellery products efficiently. Users can search by keyword, filter by category, price range, and rating, and view detailed product information with images. The system provides a clean, modern, and interactive interface using Streamlit.
+
+---
+
 ## Features
 - Keyword search in product titles and descriptions
 - Filter by category, price range, and minimum rating
-- Sort by rating or price
+- Sort products by rating or price
 - Aesthetic product cards with images, rounded corners, and category badges
 - Responsive and clean Streamlit interface
 
@@ -16,15 +21,26 @@
 ## Limitations
 - Works only with the provided dataset (`jewellery_custom.csv`)
 - Images must exist in the `images/` folder
-- Dataset is simulated; does not fetch live data from Amazon or other sites
+- Dataset is simulated; does not fetch live data from Amazon or other online sources
+- Does not include user authentication or personalized recommendations
 
 ---
 
-## Tech Stack & Tools
-- Python 3.x  
-- Pandas for data manipulation  
-- Streamlit for interactive UI  
+## Tech Stack & APIs Used
+- **Python 3.x**  
+- **Pandas** – for data manipulation  
+- **Streamlit** – for interactive user interface  
 - Local CSV dataset (`jewellery_custom.csv`)  
 - Images stored locally in `images/` folder  
 
+> No external APIs or machine learning models are used in this version.
+
 ---
+
+## Setup & Run Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/hithagovi/luxurygems
+cd luxurygems
