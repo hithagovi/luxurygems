@@ -28,10 +28,3 @@
 - Images stored locally in `images/` folder  
 
 ---
-
-## Setup & Run Instructions
-
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/GemFinder
-cd GemFinder
